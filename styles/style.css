@@ -1,0 +1,112 @@
+body{
+	    font-family: arial,sans-serif;
+}
+img {
+	display : block;
+	margin :  0 auto;
+	padding-bottom: 8px;
+	
+
+}
+
+a{
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+div.main {
+	display: block;
+	padding-top: 160px;
+}
+
+input.searchbar {
+	display :block;
+	margin: 0 auto;
+	width: 403px;
+	height: 34px;
+}
+
+
+div.buttons{
+	padding-top: 18px;
+	margin :  0 auto;
+	width: 250px;
+	padding-bottom: 10px;
+
+
+}
+
+input.searchbutton{
+
+	padding: 5px 10px;
+	background-color: #f2f2f2;
+	border:  1px solid #aaa
+	margin: 0 auto;
+
+}
+
+img.navbutton{
+	width: 30px;
+	height: 30px;
+	display: inline;
+
+}
+
+header {
+	display : block;
+	float: right;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	height: 43px;
+}
+
+
+ul {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+ul li {
+	display: inline-block;
+	padding : 5px;
+	vertical-align: middle;
+}
+
+ul.left {
+	position : fixed;
+	bottom: 5px;
+	left :0;
+	float : left;
+	
+
+}
+
+ul.right {
+	position : fixed;
+	bottom: 5px;
+	right : 0;
+	float: right;
+	
+}
+
+ul.top {
+	padding-top: 10px;
+
+}
+
+footer {
+	height : 35px;
+	position : absolute;
+	display : block;
+	bottom: 0;
+	width: 100%;
+	background-color: #f2f2f2;
+	border-top:  1px solid #aaa;
+}
+
